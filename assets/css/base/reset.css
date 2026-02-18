@@ -1,0 +1,168 @@
+/* ==== 
+ --------- (2.01) reset styles start ---------
+ ==== */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+*::-moz-selection {
+    color: var(--white);
+    background-color: var(--bg-primary);
+}
+
+*::selection {
+    color: var(--white);
+    background-color: var(--bg-primary);
+}
+
+html {
+    overflow-x: clip;
+}
+
+body {
+    font-family: var(--gibson);
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 400;
+    color: var(--text-primary);
+    background-color: var(--white);
+    overflow-x: clip;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: var(--bg-secondary);
+    border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-button {
+    background-color: var(--bg-primary);
+    border-radius: 5px;
+}
+
+.page-wrapper {
+    overflow-x: clip;
+}
+
+
+button {
+    background-color: transparent;
+    border: 0px;
+    outline: 0px;
+}
+
+a,
+button {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    outline: 0px;
+    border: 0px;
+    cursor: pointer;
+    color: var(--template-color);
+}
+
+a i,
+button i {
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+}
+
+a:hover,
+button:hover {
+    text-decoration: none;
+    border: 0px;
+    outline: 0px;
+}
+
+a:focus,
+button:focus {
+    box-shadow: none;
+    outline: 0px;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 0px;
+    padding: 0px;
+}
+
+hr,
+blockquote,
+textarea {
+    margin: 0px;
+    opacity: 1;
+}
+
+input,
+textarea {
+    border: 0px;
+    outline: 0px;
+}
+
+input:focus,
+textarea:focus {
+    box-shadow: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--text-primary);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0px;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+input[type="checkbox"] {
+    width: initial;
+    height: initial;
+}
+
+textarea {
+    min-height: 150px;
+    resize: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+iframe {
+    border: 0px;
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* ==== 
+ --------- (2.01) reset styles end ---------
+ ==== */

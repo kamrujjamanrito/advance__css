@@ -1,0 +1,212 @@
+/* ==== 
+ --------- (2.02) typography styles start ---------
+ ==== */
+
+
+/* gibson font sources */
+@font-face {
+    font-family: "Gibson";
+    src: url("/assets/fonts/gibson-thin.otf") format("opentype");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gibson";
+    src: url("/assets/fonts/gibson-light.otf") format("opentype");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gibson";
+    src: url("/assets/fonts/gibson-book.otf") format("opentype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gibson";
+    src: url("/assets/fonts/gibson-regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gibson";
+    src: url("/assets/fonts/gibson-medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gibson";
+    src: url("/assets/fonts/gibson-semibold.otf") format("opentype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gibson";
+    src: url("/assets/fonts/gibson-bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gibson";
+    src: url("/assets/fonts/gibson-heavy.otf") format("opentype");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* italic variant */
+@font-face {
+    font-family: "Gibson";
+    src: url("/assets/fonts/gibson-thinitalic.otf") format("opentype");
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gibson";
+    src: url("/assets/fonts/gibson-lightitalic.otf") format("opentype");
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gibson";
+    src: url("/assets/fonts/gibson-bookitalic.otf") format("opentype");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gibson";
+    src: url("/assets/fonts/gibson-mediumitalic.otf") format("opentype");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gibson";
+    src: url("/assets/fonts/gibson-semibolditalic.otf") format("opentype");
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gibson";
+    src: url("/assets/fonts/gibson-bolditalic.otf") format("opentype");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gibson";
+    src: url("/assets/fonts/gibson-heavyitalic.otf") format("opentype");
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+/* paragraph and link styles */
+p,
+th,
+td,
+li,
+input,
+textarea,
+select,
+label,
+blockquote,
+span,
+a,
+button {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.text-xxl {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.text-xl {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.text-lg {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.text-md {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.text-sm {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.text-xs {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+
+/* heading styles */
+h1 {
+    font-size: 30px;
+    line-height: 34px;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 32px;
+}
+
+h3 {
+    font-size: 26px;
+    line-height: 30px;
+}
+
+h4 {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+h5 {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+h6 {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+/* ==== 
+ --------- (2.02) typography styles end ---------
+ ==== */

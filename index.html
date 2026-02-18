@@ -51,13 +51,85 @@
     </head>
     <body>
         <!--[if lt IE 9]>
-      <p class="browserupgrade">
-         You are using an <strong>outdated</strong> browser. Please
-         <a href="https://browsehappy.com/">upgrade your browser</a> to improve
-         your experience and security.
-      </p>
-      <![endif]-->
-        <div class="page-wrapper"></div>
+          <p class="browserupgrade">
+          You are using an <strong>outdated</strong> browser. Please
+          <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+          your experience and security.
+        </p>
+        <![endif]-->
+        <div class="page-wrapper">
+            <!-- ==== sidebar start ==== -->
+            <sidebar class="sidebar">
+                <div class="sidebar__inner">
+                    <div class="logo">
+                        <a href="index.html" aria-label="advanced css logo" title="advanced css logo">Logos</a>
+                    </div>
+                    <ul class="sidebar__nav">
+                        <li>
+                            <a href="index.html" aria-label="communicate now" title="communicate now">Communicate</a>
+                        </li>
+                        <li>
+                            <a href="index.html" aria-label="modify schedule" title="modify schedule">Schedule</a>
+                        </li>
+                        <li>
+                            <a href="index.html" aria-label="view grades" title="view grades">Grades</a>
+                        </li>
+                        <li>
+                            <a href="index.html" aria-label="check attendance" title="check attendance">Attendance</a>
+                        </li>
+                        <li>
+                            <a href="index.html" aria-label="request counseling services" title="request counseling services">Counseling</a>
+                        </li>
+                        <li>
+                            <a href="index.html" aria-label="view notifications" title="view notifications">Alerts</a>
+                        </li>
+                        <li>
+                            <a href="index.html" aria-label="manage transcript" title="manage transcript">Transcript</a>
+                        </li>
+                        <li>
+                            <a href="index.html" aria-label="enroll again" title="enroll again">Re-enroll</a>
+                        </li>
+                        <li>
+                            <a
+                                href="index.html"
+                                aria-label="billing & payments"
+                                title="billing & payments"
+                                class="selected"
+                            >Billing</a>
+                        </li>
+                        <li>
+                            <a href="index.html" aria-label="operating hours" title="operating hours">Service Hours</a>
+                        </li>
+                    </ul>
+                </div>
+            </sidebar>
+            <!-- ==== / sidebar end ==== -->
+            <!-- ==== main section start ==== -->
+            <main class="main">
+                <!-- ==== mobile menu start ==== -->
+                <header class="header">
+                    <div class="container">
+                        <div class="header__inner">
+                            <button class="toggle-sidebar" aria-label="toggle sidebar menu" title="toggle sidebar menu">
+                                <span class="icon-bar top-bar"></span>
+                                <span class="icon-bar middle-bar"></span>
+                                <span class="icon-bar bottom-bar"></span>
+                            </button>
+                            <div class="logo">
+                                <a href="index.html" aria-label="advanced css logo" title="advanced css logo">Logos</a>
+                            </div>
+                            <div class="user__profile">
+                                <button aria-label="toggle user settings" title="toggle user settings">
+                                    <img src="assets/images/icons/user.svg" alt="user profile">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <!-- ==== / mobile menu end ==== -->
+            </main>
+            <!-- ==== main section start ==== -->
+        </div>
         <!-- main js -->
         <script src="assets/js/main.js"></script>
     </body>

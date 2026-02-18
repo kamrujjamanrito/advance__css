@@ -1,0 +1,58 @@
+/* ==== 
+ --------- (4.02) header styles start ---------
+ ==== */
+
+.header {
+    padding: 9px 15px 9px 18px;
+    background-color: var(--bg-primary);
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.logo a {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 600;
+    color: var(--white);
+    letter-spacing: 0.0115em;
+}
+
+.toggle-sidebar {
+    padding: 0px;
+    display: inline-block;
+    background-color: transparent;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.toggle-sidebar span {
+    height: 2px;
+    background-color: var(--white);
+    width: 18px;
+    transition: var(--transition);
+}
+
+.toggle-sidebar-active .middle-bar {
+    opacity: 0;
+}
+
+.toggle-sidebar-active .top-bar {
+    transform: rotate(45deg) translateY(5px) translateX(2.5px);
+}
+
+.toggle-sidebar-active .bottom-bar {
+    transform: rotate(-45deg) translateY(-5px) translateX(2.5px);
+}
+
+
+/* ==== 
+ --------- (4.02) header styles end ---------
+ ==== */

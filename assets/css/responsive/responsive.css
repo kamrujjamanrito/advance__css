@@ -1,0 +1,41 @@
+/* ==== 
+ --------- (6.00) responsive styles start ---------
+ ==== */
+
+@media only screen and (min-width: 320px) {}
+
+@media only screen and (min-width: 576px) {}
+
+@media only screen and (min-width: 768px) {
+
+    /* sidebar */
+    .sidebar {
+        inset-inline-start: 0px;
+    }
+
+    .logo a {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 600;
+    color: var(--white);
+    letter-spacing: 0.0082em;
+}
+
+    .main {
+        padding-inline-start: 160px;
+    }
+
+    .header {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (min-width: 1400px) {}
+
+/* ==== 
+ --------- (6.00) responsive styles end ---------
+ ==== */

@@ -1,0 +1,19 @@
+/* ==== 
+ --------- (2.03) global styles start ---------
+ ==== */
+
+/* page layout */
+.main {
+    height: 100%;
+    overflow-y: auto;
+    transition: var(--transition);
+}
+
+.main-active {
+    margin-inline-start: 160px;
+    min-width: 100vw;
+}
+
+/* ==== 
+ --------- (2.03) global styles end ---------
+ ==== */
