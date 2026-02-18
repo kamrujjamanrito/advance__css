@@ -44,13 +44,14 @@
 @import url("./components/buttons.css");
 @import url("./components/forms.css");
 @import url("./components/preloader.css");
+@import url("./components/widgets.css");
 
 /* layout styles */
 @import url("./layout/sidebar.css");
 @import url("./layout/header.css");
 
 /* section styles */
-@import url("./sections/blilling.css");
+@import url("./sections/billing.css");
 
 /* responsive styles */
 @import url("./responsive/responsive.css");

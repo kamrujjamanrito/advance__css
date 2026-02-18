@@ -2,6 +2,27 @@
  --------- (3.01) buttons styles start ---------
  ==== */
 
+.btn-primary {
+    padding: 5px 12px;
+    border: 0.5px solid var(--border-color);
+    border-radius: 360px;
+    font-weight: 500;
+    letter-spacing: 0.15px;
+    color: var(--white);
+    background-image: -webkit-gradient(linear, left top, right top, from(#005890), to(#2A78A8));
+    background-image: -o-linear-gradient(left, #005890 0%, #2A78A8 100%);
+    background-image: linear-gradient(to right, #005890 0%, #2A78A8 100%);
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.btn-primary:hover {
+    border: 0.5px solid var(--border-color);
+    background-image: -webkit-gradient(linear, left top, right top, from(#004875), to(#005890));
+    background-image: -o-linear-gradient(left, #004875 0%, #005890 100%);
+    background-image: linear-gradient(to right, #004875 0%, #005890 100%);
+}
 
 /* ==== 
  --------- (3.01) buttons styles end ---------

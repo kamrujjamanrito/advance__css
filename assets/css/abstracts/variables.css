@@ -17,7 +17,6 @@
     --text-secondary: #4D4D4D;
     --text-tertiary: #949494;
     --text-quaternary: #138000;
-    --text-quinary: #138000;
 
     /* border colors */
     --border-color: #949494BF;
@@ -25,8 +24,6 @@
     /* transitions */
     --transition: all 0.15s ease;
 
-    /* box shadow */
-    --shadow: 0px 4px 27px 0px rgba(0, 0, 0, 0.05);
 }
 
 /* ==== 

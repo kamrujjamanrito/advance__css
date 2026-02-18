@@ -1,136 +1,364 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- #required meta -->
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- #favicon -->
-        <link rel="icon" type="image/x-icon" href="assets/images/meta/favicon.ico">
-        <!-- #png favicons for browsers -->
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="16x16"
-            href="assets/images/meta/favicon-16x16.png"
-        >
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="32x32"
-            href="assets/images/meta/favicon-32x32.png"
-        >
-        <!-- #apple touch icon -->
-        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/meta/apple-touch-icon.png">
-        <!-- #android chrome -->
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="192x192"
-            href="assets/images/meta/android-chrome-192x192.png"
-        >
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="512x512"
-            href="assets/images/meta/android-chrome-512x512.png"
-        >
-        <!-- #web app manifest -->
-        <link rel="manifest" href="assets/images/meta/site.webmanifest">
-        <!-- #windows tiles -->
-        <meta name="msapplication-TileColor" content="#002942">
-        <meta name="theme-color" content="#002942">
-        <!-- #title -->
-        <title>AC | Advanced CSS Skill Assessment Project</title>
-        <!-- #keywords -->
-        <meta name="keywords" content="advanced, css, skill, project, example">
-        <!-- #description -->
-        <meta name="description" content="Advanced CSS Skill Assessment Project">
-        <!-- main css -->
-        <link rel="stylesheet" href="assets/css/main.css">
-    </head>
-    <body>
-        <!--[if lt IE 9]>
-          <p class="browserupgrade">
-          You are using an <strong>outdated</strong> browser. Please
-          <a href="https://browsehappy.com/">upgrade your browser</a> to improve
-          your experience and security.
-        </p>
-        <![endif]-->
-        <div class="page-wrapper">
-            <!-- ==== sidebar start ==== -->
-            <sidebar class="sidebar">
-                <div class="sidebar__inner">
-                    <div class="logo">
+   <head>
+      <!-- #required meta -->
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- #favicon -->
+      <link rel="icon" type="image/x-icon" href="assets/images/meta/favicon.ico">
+      <!-- #png favicons for browsers -->
+      <link
+         rel="icon"
+         type="image/png"
+         sizes="16x16"
+         href="assets/images/meta/favicon-16x16.png"
+         >
+      <link
+         rel="icon"
+         type="image/png"
+         sizes="32x32"
+         href="assets/images/meta/favicon-32x32.png"
+         >
+      <!-- #apple touch icon -->
+      <link rel="apple-touch-icon" sizes="180x180" href="assets/images/meta/apple-touch-icon.png">
+      <!-- #android chrome -->
+      <link
+         rel="icon"
+         type="image/png"
+         sizes="192x192"
+         href="assets/images/meta/android-chrome-192x192.png"
+         >
+      <link
+         rel="icon"
+         type="image/png"
+         sizes="512x512"
+         href="assets/images/meta/android-chrome-512x512.png"
+         >
+      <!-- #web app manifest -->
+      <link rel="manifest" href="assets/images/meta/site.webmanifest">
+      <!-- #windows tiles -->
+      <meta name="msapplication-TileColor" content="#002942">
+      <meta name="theme-color" content="#002942">
+      <!-- #title -->
+      <title>AC | Advanced CSS Skill Assessment Project</title>
+      <!-- #keywords -->
+      <meta name="keywords" content="advanced, css, skill, project, example">
+      <!-- #description -->
+      <meta name="description" content="Advanced CSS Skill Assessment Project">
+      <!-- main css -->
+      <link rel="stylesheet" href="assets/css/main.css">
+   </head>
+   <body>
+      <!--[if lt IE 9]>
+      <p class="browserupgrade">
+         You are using an <strong>outdated</strong> browser. Please
+         <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+         your experience and security.
+      </p>
+      <![endif]-->
+      <div class="page-wrapper">
+         <!-- ==== sidebar start ==== -->
+         <aside class="sidebar">
+            <div class="sidebar__inner">
+               <div class="logo">
+                  <a href="index.html" aria-label="advanced css logo" title="advanced css logo">Logos</a>
+               </div>
+               <nav class="sidebar__nav-wrapper">
+                  <ul class="sidebar__nav">
+                     <li>
+                        <a href="index.html" aria-label="communicate now" title="communicate now">Communicate</a>
+                     </li>
+                     <li>
+                        <a href="index.html" aria-label="modify schedule" title="modify schedule">Schedule</a>
+                     </li>
+                     <li>
+                        <a href="index.html" aria-label="view grades" title="view grades">Grades</a>
+                     </li>
+                     <li>
+                        <a href="index.html" aria-label="check attendance" title="check attendance">Attendance</a>
+                     </li>
+                     <li>
+                        <a href="index.html" aria-label="request counseling services" title="request counseling services">Counseling</a>
+                     </li>
+                     <li>
+                        <a href="index.html" aria-label="view notifications" title="view notifications">Alerts</a>
+                     </li>
+                     <li>
+                        <a href="index.html" aria-label="manage transcript" title="manage transcript">Transcript</a>
+                     </li>
+                     <li>
+                        <a href="index.html" aria-label="enroll again" title="enroll again">
+                        Re
+                        <span class="entity">-</span>
+                        Enroll
+                        </a>
+                     </li>
+                     <li>
+                        <a
+                           href="index.html"
+                           aria-label="billing & payments"
+                           title="billing & payments"
+                           class="selected"
+                           >Billing</a>
+                     </li>
+                     <li>
+                        <a href="index.html" aria-label="operating hours" title="operating hours">Service Hours</a>
+                     </li>
+                  </ul>
+               </nav>
+            </div>
+         </aside>
+         <!-- ==== / sidebar end ==== -->
+         <!-- ==== main section start ==== -->
+         <main class="main">
+            <!-- ==== mobile menu start ==== -->
+            <header class="header">
+               <div class="ac-container">
+                  <div class="header__inner">
+                     <button class="toggle-sidebar" aria-label="toggle sidebar menu" title="toggle sidebar menu">
+                     <span class="icon-bar top-bar"></span>
+                     <span class="icon-bar middle-bar"></span>
+                     <span class="icon-bar bottom-bar"></span>
+                     </button>
+                     <div class="logo">
                         <a href="index.html" aria-label="advanced css logo" title="advanced css logo">Logos</a>
-                    </div>
-                    <ul class="sidebar__nav">
-                        <li>
-                            <a href="index.html" aria-label="communicate now" title="communicate now">Communicate</a>
-                        </li>
-                        <li>
-                            <a href="index.html" aria-label="modify schedule" title="modify schedule">Schedule</a>
-                        </li>
-                        <li>
-                            <a href="index.html" aria-label="view grades" title="view grades">Grades</a>
-                        </li>
-                        <li>
-                            <a href="index.html" aria-label="check attendance" title="check attendance">Attendance</a>
-                        </li>
-                        <li>
-                            <a href="index.html" aria-label="request counseling services" title="request counseling services">Counseling</a>
-                        </li>
-                        <li>
-                            <a href="index.html" aria-label="view notifications" title="view notifications">Alerts</a>
-                        </li>
-                        <li>
-                            <a href="index.html" aria-label="manage transcript" title="manage transcript">Transcript</a>
-                        </li>
-                        <li>
-                            <a href="index.html" aria-label="enroll again" title="enroll again">Re-enroll</a>
-                        </li>
-                        <li>
-                            <a
-                                href="index.html"
-                                aria-label="billing & payments"
-                                title="billing & payments"
-                                class="selected"
-                            >Billing</a>
-                        </li>
-                        <li>
-                            <a href="index.html" aria-label="operating hours" title="operating hours">Service Hours</a>
-                        </li>
-                    </ul>
-                </div>
-            </sidebar>
-            <!-- ==== / sidebar end ==== -->
-            <!-- ==== main section start ==== -->
-            <main class="main">
-                <!-- ==== mobile menu start ==== -->
-                <header class="header">
-                    <div class="container">
-                        <div class="header__inner">
-                            <button class="toggle-sidebar" aria-label="toggle sidebar menu" title="toggle sidebar menu">
-                                <span class="icon-bar top-bar"></span>
-                                <span class="icon-bar middle-bar"></span>
-                                <span class="icon-bar bottom-bar"></span>
-                            </button>
-                            <div class="logo">
-                                <a href="index.html" aria-label="advanced css logo" title="advanced css logo">Logos</a>
-                            </div>
-                            <div class="user__profile">
-                                <button aria-label="toggle user settings" title="toggle user settings">
-                                    <img src="assets/images/icons/user.svg" alt="user profile">
-                                </button>
-                            </div>
+                     </div>
+                     <div class="user__profile">
+                        <button aria-label="toggle user settings" title="toggle user settings">
+                        <img src="assets/images/icons/user.svg" alt="user profile">
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </header>
+            <!-- ==== / mobile menu end ==== -->
+            <!-- ==== topbar start ==== -->
+            <div class="topbar">
+               <div class="ac-container">
+                  <div class="ac-row items-center items-between">
+                     <div class="ac-col-12 ac-col-md-9 ac-col-lg-8 ac-col-xl-6">
+                        <div class="topbar__left">
+                           <div class="billing__tab">
+                              <button
+                                 data-target="#billingBalance"
+                                 aria-label="check balance"
+                                 title="check balance"
+                                 class="billing-tab-btn active"
+                                 >Balance</button>
+                              <button
+                                 data-target="#billingStatements"
+                                 aria-label="download statements"
+                                 title="download statements"
+                                 class="billing-tab-btn"
+                                 >Statements</button>
+                              <button
+                                 data-target="#billingAutoPay"
+                                 aria-label="set auto payment"
+                                 title="set auto payment"
+                                 class="billing-tab-btn"
+                                 >AutoPay</button>
+                           </div>
                         </div>
-                    </div>
-                </header>
-                <!-- ==== / mobile menu end ==== -->
-            </main>
-            <!-- ==== main section start ==== -->
-        </div>
-        <!-- main js -->
-        <script src="assets/js/main.js"></script>
-    </body>
+                     </div>
+                     <div class="ac-col-12 ac-col-md-3 ac-col-lg-4">
+                        <div class="topbar__right-options">
+                           <button aria-label="print now" title="print now">
+                           <img src="assets/images/icons/print.svg" alt="print now">
+                           <span class="text-xs">Print</span>
+                           </button>
+                           <button aria-label="profile settings" title="profile settings">
+                           <img src="assets/images/icons/user.svg" alt="profile settings">
+                           <span class="text-xs">Bartholomew</span>
+                           </button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- ==== / topbar end ==== -->
+            <!-- ==== billing section start ==== -->
+            <section class="billing">
+               <div class="ac-container">
+                  <div class="ac-row">
+                     <div class="ac-col-12">
+                        <div class="section-intro mb-24">
+                           <h2>Balance</h2>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="ac-row">
+                     <div class="ac-col-12 ac-col-lg-6 ac-col-xl-5">
+                        <div class="billing__balance">
+                           <p class="text-xl fw-5">Total Outstanding Balances</p>
+                           <ul class="mt-16 mb-24">
+                              <li>
+                                 <span>
+                                 Enrollment
+                                 <i class="entity">/</i>
+                                 Registration Fees
+                                 </span>
+                                 <span class="fw-5 text-tertiary">
+                                 <i class="entity">$</i>
+                                 0.00
+                                 </span>
+                              </li>
+                              <li>
+                                 <span>
+                                 Field Trips 6th Grade
+                                 </span>
+                                 <span class="fw-5 text-tertiary">
+                                 <i class="entity">$</i>
+                                 0.00
+                                 </span>
+                              </li>
+                              <li>
+                                 <span>
+                                 Friday School
+                                 </span>
+                                 <span class="fw-5 text-secondary">
+                                 <i class="entity">$</i>
+                                 1,602.00
+                                 </span>
+                              </li>
+                              <li>
+                                 <span>
+                                 Sports Fee Football
+                                 </span>
+                                 <span class="fw-5 text-tertiary">
+                                 <i class="entity">$</i>
+                                 0.00
+                                 </span>
+                              </li>
+                              <li>
+                                 <span>
+                                 Tuition
+                                 </span>
+                                 <span class="fw-5 text-secondary">
+                                 <i class="entity">$</i>
+                                 5,768.00
+                                 </span>
+                              </li>
+                              <li>
+                                 <span>
+                                 Sports Fees
+                                 </span>
+                                 <span class="fw-5 text-tertiary">
+                                 <i class="entity">$</i>
+                                 0.00
+                                 </span>
+                              </li>
+                              <li>
+                                 <span>
+                                 Sports Fees
+                                 </span>
+                                 <span class="fw-5 text-tertiary">
+                                 <i class="entity">$</i>
+                                 0.00
+                                 </span>
+                              </li>
+                              <li>
+                                 <span>
+                                 Friday School Payment
+                                 </span>
+                                 <span class="fw-5 text-quaternary">
+                                 <i class="entity">- $</i>
+                                 930.00
+                                 </span>
+                              </li>
+                              <li>
+                                 <span>
+                                 Multi-Child Discount
+                                 </span>
+                                 <span class="fw-5 text-quaternary">
+                                 <i class="entity">- $</i>
+                                 589.50
+                                 </span>
+                              </li>
+                              <li>
+                                 <span>
+                                 Registration Fees
+                                 </span>
+                                 <span class="fw-5 text-tertiary">
+                                 <i class="entity">$</i>
+                                 0.00
+                                 </span>
+                              </li>
+                              <li>
+                                 <span>
+                                 Tuition Payment
+                                 </span>
+                                 <span class="fw-5 text-quaternary">
+                                 <i class="entity">- $</i>
+                                 3605.50
+                                 </span>
+                              </li>
+                           </ul>
+                           <p class="text-xl fw-5">Summary</p>
+                           <ul class="mt-16">
+                              <li>
+                                 <span>
+                                 Statement Balance
+                                 </span>
+                                 <span class="fw-5 text-secondary">
+                                 <i class="entity">$</i>
+                                 1,555.00
+                                 </span>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="ac-col-12 ac-col-lg-6 ac-col-xl-5">
+                        <div class="billing__summary">
+                           <div class="billing__summary-wrapper">
+                              <div class="billing__summary-single">
+                                 <p class="text-sm fw-5 text-secondary">Total Balance</p>
+                                 <h3 class="fw-7 mt-4">
+                                    <span class="entity fw-8">$</span>
+                                    1,535.00
+                                 </h3>
+                              </div>
+                              <div class="billing__summary-single">
+                                 <p class="text-sm fw-5 text-secondary">Remaining Balance</p>
+                                 <h3 class="fw-7 mt-4">
+                                    <span class="entity fw-8">$</span>
+                                    1,535.00
+                                 </h3>
+                                 <p class="text-sm text-secondary mt-4">
+                                    Payment Due:
+                                    <span class="date">
+                                    06
+                                    <i class="entity fw-8">/</i>
+                                    05
+                                    <i class="entity fw-8">/</i>
+                                    2026
+                                    </span>
+                                 </p>
+                              </div>
+                           </div>
+                           <div class="billing__summary-cta mt-16">
+                              <div class="billing__summary-single">
+                                 <p class="text-xs text-tertiary">If you are making a one time payment for something, please add a note.</p>
+                              </div>
+                              <div class="billing__summary-single">
+                                 <a
+                                    href="index.html"
+                                    aria-label="make a payment"
+                                    title="make a payment"
+                                    class="btn-primary"
+                                    >Go to Payment</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- ==== / billing section end ==== -->
+         </main>
+         <!-- ==== main section start ==== -->
+      </div>
+      <!-- main js -->
+      <script src="assets/js/main.js"></script>
+   </body>
 </html>

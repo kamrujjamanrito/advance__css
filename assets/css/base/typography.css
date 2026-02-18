@@ -125,6 +125,7 @@
     font-display: swap;
 }
 
+@import url(https://db.onlinewebfonts.com/c/e193c5fc6e83a0bf73e905acba5146dd?family=Gibson-SemiBold);
 
 
 /* paragraph and link styles */
@@ -151,8 +152,8 @@ button {
 }
 
 .text-xl {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 26px;
 }
 
 .text-lg {

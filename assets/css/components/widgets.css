@@ -1,0 +1,111 @@
+/* ==== 
+ --------- (3.04) widgets styles start ---------
+ ==== */
+
+.topbar {
+    -webkit-margin-before: 16px;
+            margin-block-start: 16px;
+}
+
+.billing__tab {
+    padding: 2px;
+    background-color: #7676801F;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 4px;
+    border-radius: 10px;
+    max-width: 570px;
+}
+
+.billing-tab-btn {
+    padding: 5px 8px;
+    letter-spacing: 0.5px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    border: 0.5px solid transparent;
+    color: var(--text-secondary);
+    border-radius: 8px;
+}
+
+.billing-tab-btn:hover {
+    background-color: #7676801F;
+    border: 0.5px solid transparent;
+    color: var(--text-secondary);
+}
+
+.billing-tab-btn.active {
+    background-color: var(--white);
+    border: 0.5px solid #0000000A;
+    -webkit-filter: drop-shadow(0px 3px 1px rgba(0, 0, 0, 0.04)) drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.12));
+            filter: drop-shadow(0px 3px 1px rgba(0, 0, 0, 0.04)) drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.12));
+}
+
+.topbar__right-options {
+    display: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    gap: 4px;
+}
+
+.topbar__right-options button {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    min-width: 52px;
+    gap: 4px;
+}
+
+.topbar__right-options span {
+    display: inline-block;
+    max-width: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    vertical-align: bottom;
+    letter-spacing: 0.4px;
+    font-weight: 400;
+}
+
+.topbar__right-options img {
+    -webkit-filter: brightness(0) saturate(100%) invert(32%) sepia(0%) saturate(22%) hue-rotate(200deg) brightness(94%) contrast(97%);
+            filter: brightness(0) saturate(100%) invert(32%) sepia(0%) saturate(22%) hue-rotate(200deg) brightness(94%) contrast(97%);
+    width: 20px;
+    height: 20px;
+}
+
+.topbar__right-options button:hover img {
+    -webkit-filter: brightness(0) saturate(100%) invert(18%) sepia(98%) saturate(2285%) hue-rotate(186deg) brightness(89%) contrast(103%);
+            filter: brightness(0) saturate(100%) invert(18%) sepia(98%) saturate(2285%) hue-rotate(186deg) brightness(89%) contrast(103%);
+}
+
+.topbar__right-options button:hover span {
+    color: var(--bg-quaternary);
+}
+/* ==== 
+ --------- (3.04) widgets styles end ---------
+ ==== */
